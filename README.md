@@ -6,7 +6,7 @@ This repository contains my solutions to various Kaggle challenges and competiti
 
 - **Exploratory Data Analysis (EDA):** In-depth exploration of the datasets to uncover insights and trends.  
 - **Feature Engineering (FE):** Transformation and creation of features to enhance model performance.  
-- **Modeling:** Implementation of machine learning algorithms, evaluation through cross-validation, and hyperparameter tuning.  
+- **Modeling:** Implementation of machine learning algorithms. 
 - **Documentation:** Detailed explanations and visualizations for each step in the solution.  
 
 ## Objective
