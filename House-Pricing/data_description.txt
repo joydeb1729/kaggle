@@ -17,7 +17,7 @@ MSSubClass: Identifies the type of dwelling involved in the sale.2
        180	PUD - MULTILEVEL - INCL SPLIT LEV/FOYER
        190	2 FAMILY CONVERSION - ALL STYLES AND AGES
 
-MSZoning: Identifies the general zoning classification of the sale.2
+MSZoning: Identifies the general zoning classification of the sale.1/2
 		
        A	Agriculture
        C	Commercial
@@ -50,7 +50,7 @@ LotShape: General shape of property2
        IR2	Moderately Irregular
        IR3	Irregular
        
-LandContour: Flatness of the property2
+LandContour: Flatness of the property1
 
        Lvl	Near Flat/Level	
        Bnk	Banked - Quick and significant rise from street grade to building
@@ -78,7 +78,7 @@ LandSlope: Slope of property2
        Mod	Moderate Slope	
        Sev	Severe Slope
 	
-Neighborhood: Physical locations within Ames city limits
+Neighborhood: Physical locations within Ames city limits2
 
        Blmngtn	Bloomington Heights
        Blueste	Bluestem
@@ -106,7 +106,7 @@ Neighborhood: Physical locations within Ames city limits
        Timber	Timberland
        Veenker	Veenker
 			
-Condition1: Proximity to various conditions2
+Condition1: Proximity to various conditions1/2
 	
        Artery	Adjacent to arterial street
        Feedr	Adjacent to feeder street	
@@ -130,7 +130,7 @@ Condition2: Proximity to various conditions (if more than one is present)2
        RRNe	Within 200' of East-West Railroad
        RRAe	Adjacent to East-West Railroad
 	
-BldgType: Type of dwelling2
+BldgType: Type of dwelling1
 		
        1Fam	Single-family Detached	
        2FmCon	Two-family Conversion; originally built as one-family dwelling
@@ -179,7 +179,7 @@ YearBuilt: Original construction date
 
 YearRemodAdd: Remodel date (same as construction date if no remodeling or additions)
 
-RoofStyle: Type of roof2
+RoofStyle: Type of roof1
 
        Flat	Flat
        Gable	Gable
@@ -188,7 +188,7 @@ RoofStyle: Type of roof2
        Mansard	Mansard
        Shed	Shed
 		
-RoofMatl: Roof material2
+RoofMatl: Roof material1
 
        ClyTile	Clay or Tile
        CompShg	Standard (Composite) Shingle
@@ -239,7 +239,7 @@ Exterior2nd: Exterior covering on house (if more than one material)2
        Wd Sdng	Wood Siding
        WdShing	Wood Shingles
 	
-MasVnrType: Masonry veneer type2
+MasVnrType: Masonry veneer type1
 
        BrkCmn	Brick Common
        BrkFace	Brick Face
@@ -312,7 +312,7 @@ BsmtFinType1: Rating of basement finished area1
 		
 BsmtFinSF1: Type 1 finished square feet1
 
-BsmtFinType2: Rating of basement finished area (if multiple types)
+BsmtFinType2: Rating of basement finished area (if multiple types)1
 
        GLQ	Good Living Quarters
        ALQ	Average Living Quarters
@@ -328,7 +328,7 @@ BsmtUnfSF: Unfinished square feet of basement area
 
 TotalBsmtSF: Total square feet of basement area
 
-Heating: Type of heating2
+Heating: Type of heating1/2
 		
        Floor	Floor Furnace
        GasA	Gas forced warm air furnace
@@ -350,7 +350,7 @@ CentralAir: Central air conditioning2
        N	No
        Y	Yes
 		
-Electrical: Electrical system2
+Electrical: Electrical system1/2
 
        SBrkr	Standard Circuit Breakers & Romex
        FuseA	Fuse Box over 60 AMP and all Romex wiring (Average)	
@@ -388,7 +388,7 @@ KitchenQual: Kitchen quality2
        	
 TotRmsAbvGrd: Total rooms above grade (does not include bathrooms)
 
-Functional: Home functionality (Assume typical unless deductions are warranted)2
+Functional: Home functionality (Assume typical unless deductions are warranted)1
 
        Typ	Typical Functionality
        Min1	Minor Deductions 1
@@ -410,7 +410,7 @@ FireplaceQu: Fireplace quality2
        Po	Poor - Ben Franklin Stove
        NA	No Fireplace
 		
-GarageType: Garage location2
+GarageType: Garage location1/2
 		
        2Types	More than one type of garage
        Attchd	Attached to home
@@ -422,7 +422,7 @@ GarageType: Garage location2
 		
 GarageYrBlt: Year garage was built
 		
-GarageFinish: Interior finish of the garage2
+GarageFinish: Interior finish of the garage1/2
 
        Fin	Finished
        RFn	Rough Finished	
@@ -451,7 +451,7 @@ GarageCond: Garage condition1
        Po	Poor
        NA	No Garage
 		
-PavedDrive: Paved driveway2
+PavedDrive: Paved driveway1/2
 
        Y	Paved 
        P	Partial Pavement
@@ -485,7 +485,7 @@ Fence: Fence quality
        MnWw	Minimum Wood/Wire
        NA	No Fence
 	
-MiscFeature: Miscellaneous feature not covered in other categories
+MiscFeature: Miscellaneous feature not covered in other categories1/2
 		
        Elev	Elevator
        Gar2	2nd Garage (if not described in garage section)
@@ -500,7 +500,7 @@ MoSold: Month Sold (MM)
 
 YrSold: Year Sold (YYYY)
 
-SaleType: Type of sale
+SaleType: Type of sale1
 		
        WD 	Warranty Deed - Conventional
        CWD	Warranty Deed - Cash
@@ -513,7 +513,7 @@ SaleType: Type of sale
        ConLD	Contract Low Down
        Oth	Other
 		
-SaleCondition: Condition of sale
+SaleCondition: Condition of sale1/2
 
        Normal	Normal Sale
        Abnorml	Abnormal Sale -  trade, foreclosure, short sale
